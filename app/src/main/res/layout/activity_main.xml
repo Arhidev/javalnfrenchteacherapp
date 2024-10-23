@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/french_teacher_app_title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/french_teacher_app_title"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="250sp"
+
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/blackId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/black"
+
+        app:layout_constraintTop_toTopOf="@+id/french_teacher_app_title_id"
+        android:layout_marginTop="60sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/greenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/green"
+        android:textColor="#4CAF50"
+
+        app:layout_constraintTop_toTopOf="@+id/blackId"
+        android:layout_marginTop="60sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/purpleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purple"
+        android:textColor="#9C27B0"
+
+        app:layout_constraintTop_toTopOf="@+id/greenId"
+        android:layout_marginTop="60sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/redId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        android:textColor="#F44336"
+
+        app:layout_constraintTop_toTopOf="@+id/purpleId"
+        android:layout_marginTop="60sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/yellowId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow"
+        android:textColor="#FFC107"
+
+        app:layout_constraintTop_toTopOf="@+id/redId"
+        android:layout_marginTop="60sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
